@@ -1,0 +1,2 @@
+#include "engppstd.hpp"
+int main(){for(auto a : std::vector<int>({ 2, 3, 4, 5, 6, 7, 8, 9, })){for(auto b : std::vector<int>({ 1, 2, 3, 4, 5, 6, 7, 8, 9, })){printf("%d * %d = %2d ", a, b, a*b);}println();}}

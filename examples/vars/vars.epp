@@ -1,0 +1,9 @@
+library standard
+
+When it starts
+    Let var as 0
+    println: var
+    Set var as 2
+    println: var
+    Set var as var + 2
+    println: var

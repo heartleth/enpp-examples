@@ -1,0 +1,10 @@
+library standard
+
+When it barks
+    Let static i4 a as 1
+    println: (to_string: a) + "(th/st/nd/rd) bark!"
+    Set a as a + 1
+
+When it starts
+    Repeat 10
+        it barks

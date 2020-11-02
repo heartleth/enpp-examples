@@ -1,0 +1,12 @@
+lib std
+
+about class T
+When it my_add T a, T b return T
+    return a + b
+    
+When it starts
+    println: 1 my_add! 2
+    println: 3.1 my_add! 4.1
+    Let string a as "hello"
+    Let string b as "world"
+    println: a my_add! b

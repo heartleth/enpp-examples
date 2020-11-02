@@ -1,0 +1,7 @@
+library standard
+
+When it barks
+    println: "bark bark"
+
+When it starts
+    it barks

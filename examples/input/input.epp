@@ -1,0 +1,9 @@
+library standard
+
+When it starts
+    Let name as input: "What is your name? "
+    Let age as stoi: input: "How old are you? "
+    print: "name : "
+    println: name
+    print: "Borned : "
+    println: 2020 - age

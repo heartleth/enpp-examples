@@ -1,0 +1,2 @@
+#include "engppstd.hpp"
+void barks(){static i4 a = 1;println((to_string(a))+"(th/st/nd/rd) bark!");a = a+1;}int main(){for(int qrjatydimofugclqurcl = 0; qrjatydimofugclqurcl < 10;qrjatydimofugclqurcl++){barks();}}

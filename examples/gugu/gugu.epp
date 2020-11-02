@@ -1,0 +1,7 @@
+library standard
+
+When it starts
+    For a of [2..9]
+        For b of [1..9]
+            it printf about "%d * %d = %2d  ", a, b, a*b
+        println@
